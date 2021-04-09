@@ -8,6 +8,8 @@ body {
     background-image: url('../img/test.png');
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 h1{
@@ -28,7 +30,7 @@ h1{
 {
     font-size: 30px;   
     font-family: fantasy;
-    text-shadow: 0 0 5px rgb(255, 123, 0), 0 0 15px rgb(255, 0, 0);
+    text-shadow: 0 0 20px rgb(255, 123, 0), 0 0 15px rgb(255, 0, 0);
 }
 
 .nav-link{
@@ -73,6 +75,18 @@ p{
     background: rgba(0, 0, 0, 0.65);
 }
 
+.btn-xl {
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-xxl {
+    padding: 20px 70px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
 /*De aquí pabajo es solo footer C:*/
 footer{
     background-color: black;
@@ -100,7 +114,7 @@ footer{
 
 .columna2{
     width: 100%;
-    max-width: 50%;
+    max-width: 25%;
     min-width: 5%;
     margin-top: 40px;
     margin-left: 5%;
