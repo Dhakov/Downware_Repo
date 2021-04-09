@@ -37,9 +37,6 @@ h1{
     background: linear-gradient(to right, rgb(19, 8, 0) 40%, rgb(131, 57, 8) 100%);
 }
 
-.main-container{
-    background-color: rgb(255, 0, 0);
-}
 
 p{
     font-family: Helvetica;
@@ -86,7 +83,9 @@ footer{
 .columna2{
     width: 100%;
     max-width: 50%;
-    margin: 40px;
+    min-width: 5%;
+    margin-top: 40px;
+    margin-left: 5%;
 }
 
 .row{
