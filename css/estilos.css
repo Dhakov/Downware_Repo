@@ -9,39 +9,57 @@ body {
     background-attachment: fixed;
     background-position: center;
   }
-/*
+
 h1{
     font-size: 35px;
-}*/
-  
+}
+
+
 .titulo
 {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgb(187, 84, 0);
+  color: rgb(255, 144, 53);
   text-align: center;
   font-family: fantasy;
+  text-shadow: 0 0 5px rgb(255, 123, 0), 0 0 15px rgb(255, 0, 0);
 }
 .navbar-brand
 {
     font-size: 30px;   
     font-family: fantasy;
+    text-shadow: 0 0 5px rgb(255, 123, 0), 0 0 15px rgb(255, 0, 0);
 }
 
 .nav-link{
-    font-size: 20px;
+    font-size: 25px;
     font-family: fantasy;
+    padding-top: 25px;
 }
 .navbar-dark
 {
-    background: linear-gradient(to right, rgb(19, 8, 0) 40%, rgb(131, 57, 8) 100%);
+    background: linear-gradient(to right, rgb(0, 0, 0) 30%, rgb(65, 20, 0) 90%);
+}
+
+nav .navbar-nav li a{
+    color: rgb(255, 172, 124) !important;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(255, 51, 0) !important;
+}
+
+.container-xl{
+    background: linear-gradient(to bottom, rgb(15, 4, 0) 60%, rgb(94, 28, 0) 90%);
 }
 
 
 p{
-    font-family: Helvetica;
-    color: rgb(207, 93, 0);
+    font-family: fantasy;
+    letter-spacing: 1.2px;
     font-size: 20px;
+    color: rgb(207, 93, 0);
 }
 
 /* Sobreponer texto cuando esté el mouse*/
