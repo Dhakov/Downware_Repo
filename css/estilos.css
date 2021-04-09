@@ -1,0 +1,59 @@
+
+
+.color{
+    color: black;
+}
+
+body {
+    background-image: url('../img/test.png');
+    background-attachment: fixed;
+    background-position: center;
+  }
+/*
+h1{
+    font-size: 35px;
+}*/
+  
+.titulo
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(187, 84, 0);
+  text-align: center;
+  font-family: fantasy;
+}
+.navbar-brand
+{
+    font-size: 30px;   
+    font-family: fantasy;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.navbar-dark
+{
+    background: linear-gradient(to right, rgb(19, 8, 0) 40%, rgb(131, 57, 8) 100%);
+}
+
+.main-container{
+    background-color: rgb(255, 0, 0);
+}
+
+p{
+    font-family: Helvetica;
+    color: rgb(207, 93, 0);
+    font-size: 20px;
+}
+
+/* Sobreponer texto cuando esté el mouse*/
+.ovl{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.ovl:hover{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.65);
+}
