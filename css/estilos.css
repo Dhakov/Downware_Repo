@@ -50,10 +50,52 @@ p{
 /* Sobreponer texto cuando esté el mouse*/
 .ovl{
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .ovl:hover{
     opacity: 1;
     background: rgba(0, 0, 0, 0.65);
+}
+
+/*De aquí pabajo es solo footer C:*/
+footer{
+    background-color: black;
+    color: gray;
+    width: 100%;
+}
+
+.container-footer-all{
+    width: 100%;
+    justify-content: center;
+}
+
+.container-body{
+    display: flex;
+}
+
+.columna1{
+    width: 100%;
+    max-width: 50%;
+    margin: 40px;
+}
+.columna1 p{
+    margin-top: 20px;
+}
+
+.columna2{
+    width: 100%;
+    max-width: 50%;
+    margin: 40px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.row label{
+    margin-top: 5px;
+    margin-left: 10px;
 }
