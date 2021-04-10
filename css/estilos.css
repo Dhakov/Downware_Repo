@@ -16,21 +16,27 @@ h1{
     font-size: 35px;
 }
 
+.boxed {
+    border: 5px solid rgb(255, 0, 64);
+  }
+.boxed-sm{
+    border: 2px solid rgb(255, 0, 64);
+}
 
 .titulo
 {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgb(255, 144, 53);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-family: fantasy;
-  text-shadow: 0 0 5px rgb(255, 123, 0), 0 0 15px rgb(255, 0, 0);
+  text-shadow: 0 0 15px rgb(255, 0, 55), 0 0 25px rgb(255, 172, 197);
 }
 .navbar-brand
 {
     font-size: 30px;   
     font-family: fantasy;
-    text-shadow: 0 0 20px rgb(255, 123, 0), 0 0 15px rgb(255, 0, 0);
+    text-shadow: 0 0 25px rgb(255, 0, 64), 0 0 15px rgb(255, 0, 0);
 }
 
 .nav-link{
@@ -40,20 +46,20 @@ h1{
 }
 .navbar-dark
 {
-    background: linear-gradient(to right, rgb(0, 0, 0) 30%, rgb(65, 20, 0) 90%);
+    background: linear-gradient(to right, rgb(0, 0, 0) 30%, rgb(65, 0, 25) 90%);
 }
 
 nav .navbar-nav li a{
-    color: rgb(255, 172, 124) !important;
+    color: rgb(214, 132, 132) !important;
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: rgb(255, 51, 0) !important;
+    color: rgb(255, 0, 43) !important;
 }
 
-.container-xl{
-    background: linear-gradient(to bottom, rgb(15, 4, 0) 60%, rgb(94, 28, 0) 90%);
+.container-xl{  
+    background: linear-gradient(to bottom, rgb(12, 0, 6) 40%, rgb(74, 16, 97) 90%);
 }
 
 
@@ -61,28 +67,46 @@ p{
     font-family: fantasy;
     letter-spacing: 1.2px;
     font-size: 20px;
-    color: rgb(255, 168, 96);
+    color: rgb(189, 52, 70);
+}
+
+.texto-comun{
+    font-family: fantasy;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    color: rgb(189, 52, 70);
 }
 
 /* Sobreponer texto cuando esté el mouse*/
 .ovl{
     opacity: 0;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .ovl:hover{
+    border: 5px solid rgb(255, 140, 119);
     opacity: 1;
     background: rgba(0, 0, 0, 0.65);
 }
 
+.icon-size{
+    width : 32px;
+    height : 32px;
+}
+
+.btn-md {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
 .btn-xl {
-    padding: 10px 60px;
+    padding: 15px 70px;
     font-size: 20px;
     border-radius: 10px;
 }
 
 .btn-xxl {
-    padding: 20px 70px;
+    padding: 1px 80px;
     font-size: 25px;
     border-radius: 10px;
 }
