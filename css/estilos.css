@@ -17,10 +17,12 @@ h1{
 }
 
 .boxed {
-    border: 5px solid rgb(255, 0, 64);
+    border: 10px solid rgb(255, 0, 64);
+    box-shadow: 0 0 60px #ffa2b0;
   }
 .boxed-sm{
     border: 2px solid rgb(255, 0, 64);
+    box-shadow: 0 0 8px #ff6c7f;
 }
 
 .titulo
@@ -59,7 +61,7 @@ nav .navbar-nav li a{
 }
 
 .container-xl{  
-    background: linear-gradient(to bottom, rgb(12, 0, 6) 40%, rgb(74, 16, 97) 90%);
+    background: linear-gradient(to bottom, rgb(12, 0, 6) 40%, rgb(97, 16, 27) 90%);
 }
 
 
